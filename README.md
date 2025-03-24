@@ -1,7 +1,12 @@
-# comparateur_immobilier# 📌 Application de Comparaison Immobilière
+ 📌 Application de Comparaison Immobilière
+
+![Screenshot 2025-03-24 133751](https://github.com/user-attachments/assets/cc50ad7d-28c0-4a9d-837d-811cc02f4f39)
+![Screenshot 2025-03-24 134032](https://github.com/user-attachments/assets/ebf3518f-5d2e-4e17-8c2a-af1cb8542fcd)
+
+
 
 ## 🏡 Description
-L'application [Nom de votre application] est un comparateur immobilier intelligent qui scrape automatiquement les annonces de biens immobiliers et calcule leur pertinence en fonction de plusieurs critères :
+cette application  est un comparateur immobilier intelligent qui scrape automatiquement les annonces de biens immobiliers et calcule leur pertinence en fonction de plusieurs critères :
 
 Taille (surface en m²)
 
@@ -17,42 +22,30 @@ Actuellement, l'application scrape les plateformes Citya et BMC, et permet aux u
 
 📊 Analyse de pertinence : Calcul d'un score basé sur la taille, le prix et le nombre de pièces.
 
-🗺 Carte interactive : Visualisation des biens sur une carte en temps réel.
-
-📩 Alertes personnalisées : Notifications pour les meilleures offres disponibles.
-
 📑 Détails complets : Accès aux informations essentielles pour chaque bien.
 
 ## 🛠 Technologies Utilisées
-- **Frontend** : React.js / Vue.js / Angular
-- **Backend** : Node.js / Django / Laravel
-- **Base de données** : MySQL / PostgreSQL / MongoDB
-- **API** : Google Maps API, API immobilières partenaires
+- **beautifulsoup** 
+- **selenium**
+- **sql alchemy**
+- **panda** 
 
 ## 📦 Installation
 1. Clonez le repo :
    ```bash
-   git clone https://github.com/votre-repo.git
-   cd votre-repo
+   git clone https://github.com/comparateur_immobilier.git
+   cd comparateur_immobilier
+
    ```
 2. Installez les dépendances :
    ```bash
    npm install  # ou yarn install
    ```
-3. Configurez les variables d'environnement :
-   ```bash
-   cp .env.example .env
-   ```
+
 4. Lancez l'application :
    ```bash
-   npm start  # ou yarn start
+   python
    ```
-
-## 📖 Guide d'Utilisation
-1. Recherchez un bien en entrant vos critères.
-2. Ajoutez des biens à la liste de comparaison.
-3. Consultez les différences entre les biens.
-4. Enregistrez vos favoris et activez des alertes.
 
 ## 🤝 Contribuer
 Les contributions sont les bienvenues ! Pour proposer des modifications :
@@ -63,10 +56,8 @@ Les contributions sont les bienvenues ! Pour proposer des modifications :
 5. Créez une **pull request**.
 
 ## 📩 Contact
-📧 Email : [votre-email@example.com]  
-🌐 Site web : [votre-site.com]  
-🐦 Twitter : [@votre-handle]
+📧 Email : [nathanaelgangnimaze@gmail.com]  
 
 ---
-💡 *Ce projet est sous licence [Nom de la licence]*
+
 
