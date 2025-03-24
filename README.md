@@ -1,14 +1,27 @@
 # comparateur_immobilier# 📌 Application de Comparaison Immobilière
 
 ## 🏡 Description
-L'application **[Nom de votre application]** permet aux utilisateurs de comparer facilement les offres immobilières en fonction de différents critères (prix, localisation, superficie, etc.). Elle offre une interface intuitive et des outils avancés pour aider les acheteurs et investisseurs à prendre la meilleure décision.
+L'application [Nom de votre application] est un comparateur immobilier intelligent qui scrape automatiquement les annonces de biens immobiliers et calcule leur pertinence en fonction de plusieurs critères :
 
-## 🚀 Fonctionnalités
-- 📍 **Recherche avancée** : Filtrer les annonces par prix, localisation, type de bien, etc.
-- 📊 **Comparaison des biens** : Comparer plusieurs biens sur une même page.
-- 🗺 **Carte interactive** : Visualiser les biens sur une carte en temps réel.
-- 📩 **Alertes personnalisées** : Recevoir des notifications lorsqu'un bien correspondant aux critères est disponible.
-- 📑 **Détails complets** : Accéder à des informations détaillées sur chaque bien (photos, prix, description, etc.).
+Taille (surface en m²)
+
+Prix (€)
+
+Nombre de pièces
+
+Actuellement, l'application scrape les plateformes Citya et BMC, et permet aux utilisateurs d'obtenir une analyse pertinente des offres disponibles. Son objectif est d'aider les acheteurs et investisseurs à prendre des décisions optimales en fonction de leurs besoins.
+
+🚀 Fonctionnalités
+
+📍 Scraping automatique : Extraction des annonces depuis Citya et BMC.
+
+📊 Analyse de pertinence : Calcul d'un score basé sur la taille, le prix et le nombre de pièces.
+
+🗺 Carte interactive : Visualisation des biens sur une carte en temps réel.
+
+📩 Alertes personnalisées : Notifications pour les meilleures offres disponibles.
+
+📑 Détails complets : Accès aux informations essentielles pour chaque bien.
 
 ## 🛠 Technologies Utilisées
 - **Frontend** : React.js / Vue.js / Angular
